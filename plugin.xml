@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.matd.coolplugin"
+    id="com.verso.cordova.spotifyplugin"
     version="0.2.11">
     <name>SpotifyPlugin</name>
     <description>Plugin used to fetch broadcasted meta data from the Spotify app</description>
