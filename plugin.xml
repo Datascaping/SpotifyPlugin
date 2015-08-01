@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.wp.spotifyplugin"
+    version="0.2.11">
+    <name>SpotifyPlugin</name>
+    <description>Plugin used to fetch broadcasted meta data from the Spotify app</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,spotify</keywords>
+    <repo></repo>
+    <issue></issue>
+    <js-module src="www/client.js" name="SpotifyPlugin">
+        <clobbers target="SpotifyPlugin" />
+    </js-module>
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="SpotifyPlugin" >
+                <param name="android-package" value="SpotifyPlugin"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/SpotifyPlugin.java" target-dir="src/" />
+    </platform>
+</plugin>
