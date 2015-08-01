@@ -77,7 +77,7 @@ SpotifyPlugin.prototype._status = function (info) {
         spotifyPlugin.track = info.track;
         spotifyPlugin.id = info.id;
     }else{
-        cordova.fireWindowEvent("spotifyPluginStatus", { error: "nothing"}});
+        cordova.fireWindowEvent("spotifyPluginStatus", { error: "nothing"});
     }
 };
 
