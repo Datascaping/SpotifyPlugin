@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     id="com.wp.spotifyplugin"
+=======
+    id="com.verso.cordova.spotifyplugin"
+>>>>>>> cbf7436be45f66f40c36d83d05912bcebccbc578
     version="0.2.11">
     <name>SpotifyPlugin</name>
     <description>Plugin used to fetch broadcasted meta data from the Spotify app</description>
