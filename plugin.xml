@@ -2,11 +2,11 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
     id="com.verso.cordova.spotifyplugin"
-    version="0.2.11">
+    version="0.1">
     <name>SpotifyPlugin</name>
-    <description>Plugin used to fetch broadcasted meta data from the Spotify app</description>
+    <description>SpotifyPlugin</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,spotify</keywords>
+    <keywords>cordova,device</keywords>
     <repo></repo>
     <issue></issue>
     <js-module src="www/client.js" name="SpotifyPlugin">
