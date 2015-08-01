@@ -1,8 +1,8 @@
 {
     "version": "0.1",
-    "name": "com.matd.coolplugin",
-    "cordova_name": "Cool Plugin",
-    "description": "Cool Plugin",
+    "name": "com.verso.cordova.spotifyplugin",
+    "cordova_name": "SpotifyPlugin",
+    "description": "SpotifyPlugin",
     "license": "Apache 2.0",
     "repo": "",
     "issue": "",
