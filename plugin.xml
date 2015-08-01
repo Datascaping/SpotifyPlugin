@@ -19,6 +19,6 @@
                 <param name="android-package" value="SpotifyPlugin"/>
             </feature>
         </config-file>
-        <source-file src="src/android/SpotifyPlugin.java" target-dir="src/" />
+        <source-file src="src/android/SpotifyReceiver.java" target-dir="src/" />
     </platform>
 </plugin>
